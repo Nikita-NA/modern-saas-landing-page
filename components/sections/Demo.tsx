@@ -97,12 +97,10 @@ export default function Demo() {
             <GlassCard className="relative overflow-hidden group">
               <div className="aspect-video bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 relative">
                 {/* Custom Demo Video */}
-                <video
-                  src="/demo%20video.mp4"
-                  controls
-                  className="w-full h-full object-contain rounded-xl bg-black"
-                  poster="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                />
+                <video controls style={{ width: '100%', borderRadius: '12px' }}>
+                  <source src="https://drive.google.com/uc?export=preview&id=1KfV6s3w_BWYVEFfP-0oEFCBknAX1g4eR" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </GlassCard>
           </motion.div>
