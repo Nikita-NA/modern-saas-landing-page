@@ -2,12 +2,12 @@
 
 A stunning, production-ready landing page for ADmyBRAND AI Suite featuring modern design trends, smooth animations, and a comprehensive component library.
 
-## 🌟 Features
+##  Features
 
 ### Landing Page Sections
 - **Hero Section** - Compelling headline with gradient backgrounds and call-to-action
 - **Features Section** - 8 AI-powered capabilities with interactive cards
-- **Demo Section** - Interactive video player with feature demonstrations
+- **Demo Section** - Interactive video player with feature demonstrations (video streamed from [Google Drive](https://drive.google.com/file/d/1KfV6s3w_BWYVEFfP-0oEFCBknAX1g4eR/view?usp=sharing))
 - **Pricing Section** - 3-tier pricing with feature comparisons and highlighting
 - **Interactive Pricing Calculator** - Real-time pricing customization tool
 - **Testimonials Carousel** - Customer reviews with auto-rotation and navigation
@@ -57,7 +57,7 @@ A stunning, production-ready landing page for ADmyBRAND AI Suite featuring moder
 - **Line Clamp Utilities** - Text truncation for consistent layouts
 - **Custom Slider Styling** - Branded range input components
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js 18+ 
@@ -67,7 +67,7 @@ A stunning, production-ready landing page for ADmyBRAND AI Suite featuring moder
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Nikita-NA/modern-saas-landing-page.git
 cd admybrand-ai-landing
 ```
 
@@ -83,7 +83,7 @@ npm run dev
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🎨 Design System
+## Design System
 
 ### Colors
 - **Primary**: Purple (#8B5CF6) to Blue (#3B82F6) gradients
@@ -101,14 +101,14 @@ npm run dev
 - **Components**: Consistent padding and margins
 - **Layout**: Max-width containers with responsive breakpoints
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 - **Mobile**: < 768px
 - **Tablet**: 768px - 1024px  
 - **Desktop**: > 1024px
 - **Large Desktop**: > 1280px
 
-## 🔧 Customization
+## Customization
 
 ### Adding New Sections
 1. Create component in `components/sections/`
@@ -125,7 +125,7 @@ npm run dev
 - Features data in `components/sections/Features.tsx`
 - Pricing plans in `components/sections/Pricing.tsx`
 
-## 🚀 Deployment
+## Deployment
 
 ### Build for Production
 ```bash
@@ -143,7 +143,7 @@ npm run build
 # Upload dist folder to Netlify
 ```
 
-## 📊 Performance Features
+##  Performance Features
 
 - **Image Optimization** - Next.js automatic optimization
 - **Code Splitting** - Automatic route-based splitting
@@ -151,7 +151,7 @@ npm run build
 - **Smooth Scrolling** - CSS and JavaScript scroll behavior
 - **Optimized Fonts** - Google Fonts with display swap
 
-## 🎯 SEO Optimization
+##  SEO Optimization
 
 - **Meta Tags** - Comprehensive Open Graph and Twitter cards
 - **Structured Data** - Schema markup for better indexing
@@ -159,7 +159,7 @@ npm run build
 - **Performance** - Fast loading times and Core Web Vitals
 - **Accessibility** - WCAG compliant with proper focus management
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: Next.js 14, React 18, TypeScript
 - **Styling**: Tailwind CSS, CSS Custom Properties
@@ -168,42 +168,11 @@ npm run build
 - **Images**: Pexels (stock photos)
 - **Fonts**: Inter (Google Fonts)
 
-## 📝 AI Usage Report
 
-### AI Tools Used
-- **Primary AI**: Claude Sonnet 4 for code generation and architecture
-- **Key Use Cases**: Component creation, styling implementation, content generation
-
-### Sample Prompts
-1. "Create a glassmorphism card component with backdrop blur and hover animations"
-2. "Generate a testimonials carousel with auto-rotation and navigation controls"
-3. "Build a contact form with real-time validation and error handling"
-
-### AI vs Manual Work Split
-- **AI-Generated**: 70% - Core components, styling, and structure
-- **Manual Coding**: 20% - Custom animations, fine-tuning, and optimization
-- **Customization**: 10% - Brand-specific content and design adjustments
-
-The AI assistance significantly accelerated development time while maintaining high code quality and modern design standards. Manual refinements ensured optimal user experience and performance.
-
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
-
-## 📞 Support
-
-For support and questions:
-- Email: hello@admybrand.ai
-- Documentation: [Project Wiki]
-- Issues: [GitHub Issues]
 
 ---
 
